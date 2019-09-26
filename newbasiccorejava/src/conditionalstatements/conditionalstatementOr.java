@@ -1,16 +1,15 @@
-package conditionalstatement;
+package conditionalstatements;
 
-public class conditionaloperaterOr {
+public class conditionalstatementOr {
 
-	public static void main(String[] args) 
-	{
-		int pcm=60;
-		int jre=30;
-		int cet=60;
+	public static void main(String[] args) {
+		int pcm=50;
+		int jre=40;
+		int cet=50;
 		
-		if(pcm>=60)
+		if(pcm>=50)
 		{
-			if(jre>=30 || cet>=60) 
+			if(jre>=40 || cet>=50) 
 			{
 				System.out.println("you are eligible");
 			
@@ -21,6 +20,7 @@ public class conditionaloperaterOr {
 			System.out.println("you are not eligible");
 			
 		}
+
 
 	}
 
