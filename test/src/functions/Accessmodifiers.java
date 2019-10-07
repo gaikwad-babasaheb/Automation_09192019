@@ -24,5 +24,10 @@ public class Accessmodifiers {
 	protected void protectedfunction() {
 		System.out.println("protected function");
 	}
+
+	public void publicFuncion() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 }
