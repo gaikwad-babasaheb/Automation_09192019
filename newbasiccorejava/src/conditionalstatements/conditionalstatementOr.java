@@ -9,7 +9,7 @@ public class conditionalstatementOr {
 		
 		if(pcm>=50)
 		{
-			if(jre>=40 || cet>=50) 
+			if(jre>=40 || cet>=30) 
 			{
 				System.out.println("you are eligible");
 			
